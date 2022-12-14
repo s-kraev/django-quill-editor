@@ -20,7 +20,7 @@ setup(
     packages=find_packages(exclude=["test*", "sample"]),
     include_package_data=True,
     install_requires=[
-        "django>=3.0",
+        "django>=4.0",
     ],
     python_requires=">3.6",
     zip_safe=True,
@@ -28,6 +28,7 @@ setup(
         "Framework :: Django",
         "Framework :: Django :: 3.1",
         "Framework :: Django :: 3.2",
+        "Framework :: Django :: 4.0",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",

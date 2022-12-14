@@ -19,6 +19,7 @@ django-quill-editor makes `Quill.js` easy to use on Django Forms and admin sites
    pages/using-as-form
    pages/using-as-modelform
    pages/change-toolbar-configs
+   pages/image-uploads
    pages/migrating-to-quillfield
 
 Installation

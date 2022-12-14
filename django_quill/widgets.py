@@ -29,6 +29,8 @@ json_encode = LazyEncoder().encode
 
 
 class QuillWidget(forms.Textarea):
+    template_name = 'django_quill/widget.html'
+
     class Media:
         js = MEDIA_JS
         css = {"all": MEDIA_CSS}
@@ -83,3 +85,12 @@ class QuillWidget(forms.Textarea):
                 },
             )
         )
+
+    def get_context(self, name, value, attrs):
+        context = super(QuillWidget, self).get_context(name, value, attrs)
+        context['widget']['config'] = json_encode(self.config)
+        return context
+
+    def format_value(self, value):
+        return json_encode(value)
+
