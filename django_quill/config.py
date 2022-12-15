@@ -43,6 +43,8 @@ MEDIA_JS = [
     "https://cdn.jsdelivr.net/npm/quill-image-compress@1.2.21/dist/quill.imageCompressor.min.js",
     # quill-resize
     "https://cdn.jsdelivr.net/npm/@botom/quill-resize-module@2.0.0/dist/quill-resize-module.min.js",
+    # image-uploader
+    "https://unpkg.com/quill-image-uploader@1.2.2/dist/quill.imageUploader.min.js",
     # custom
     "django_quill/django_quill.js",
 ]
@@ -52,6 +54,8 @@ MEDIA_CSS = [
     "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/darcula.min.css",
     # quill-resize
     "https://cdn.jsdelivr.net/npm/quill-resize-module@1.2.4/dist/resize.min.css",
+    # image-uploader
+    "https://unpkg.com/quill-image-uploader@1.2.2/dist/quill.imageUploader.min.css",
     # custom
     "django_quill/django_quill.css",
 ]
